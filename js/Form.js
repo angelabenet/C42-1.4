@@ -27,13 +27,8 @@ class Form {
   }
 
   handleMousePressed() {
-    this.playButton.mousePressed(() => {
-      this.input.hide();
-      this.playButton.hide();
-      var message = `
-      Olá ${this.input.value()}
-      </br>espere o outro jogador entrar...`;
-      this.greeting.html(message);
+
+// CLIQUE NA LINHA DE BAIXO E COMPLETE O CÓDIGO
 
       playerCount += 1;
       player.name = this.input.value();
